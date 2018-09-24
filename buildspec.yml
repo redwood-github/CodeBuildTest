@@ -3,10 +3,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm install
+      - apt-get update
   build:
     commands:
-      - npm test
+      - apt-get upgrade
 artifacts:
   files:
     - '**/*'
