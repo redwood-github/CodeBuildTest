@@ -6,7 +6,7 @@ phases:
       - apt-get update
   build:
     commands:
-      - apt-get upgrade
+      - apt-get update
 artifacts:
   files:
     - '**/*'
